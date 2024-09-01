@@ -1,8 +1,9 @@
-PLANTA(PLANT)
-  plant_id(PK) (Número), Identificador de la planta 
-  Plant_name : nombre de cada planta 
-  Plant_family : familia a la que pertenece cada planta 
+PLANTA(PLANT) {
+  plant_id(PK) (Número), Identificador de la planta;
+  Plant_name : nombre de cada planta;
+  Plant_family : familia a la que pertenece cada planta; 
   Plant_irrigation_schedule : horario en el que se riega la planta 
+}
 
 ENCICLOPEDIA(WIKI)
   Wiki_entry_id : número unico del articulo 
